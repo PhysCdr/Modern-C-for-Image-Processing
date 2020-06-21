@@ -1,0 +1,60 @@
+Start testing: May 25 14:10 MDT
+----------------------------------------------------------
+1/1 Testing: digit_counter_test
+1/1 Test: digit_counter_test
+Command: "/home/dmitriy/Documents/Learning/Uni-Bonn/ModernC++/Assignments/HW4/Solution/homework_4/digit_counter/bin/digit_counter_test"
+Directory: /home/dmitriy/Documents/Learning/Uni-Bonn/ModernC++/Assignments/HW4/Solution/homework_4/digit_counter/build/tests
+"digit_counter_test" start time: May 25 14:10 MDT
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/gtest/src/gtest_main.cc
+[==========] Running 6 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 3 tests from TestWarp
+[ RUN      ] TestWarp.ZeroFactor
+Number -4.87109e+09
+Factor 0
+Result -4.87109e+09
+[       OK ] TestWarp.ZeroFactor (0 ms)
+[ RUN      ] TestWarp.SmallFactor
+Number 1.6158e+08
+Factor 0.016158
+Result 1.6158e+08
+[       OK ] TestWarp.SmallFactor (0 ms)
+[ RUN      ] TestWarp.LargeFactor
+Number -1.66995e+09
+Factor -1.66995e+19
+Result -1.66995e+09
+[       OK ] TestWarp.LargeFactor (0 ms)
+[----------] 3 tests from TestWarp (0 ms total)
+
+[----------] 3 tests from TestSigFigs
+[ RUN      ] TestSigFigs.SameNumber
+Number1 -1.38598e+09
+Number2 -1.38598e+09
+Figs 100
+[       OK ] TestSigFigs.SameNumber (0 ms)
+[ RUN      ] TestSigFigs.FixedNumbers
+Number1 100000
+Number2 100.194
+Figs 3
+[       OK ] TestSigFigs.FixedNumbers (0 ms)
+[ RUN      ] TestSigFigs.RandomNumbers
+Number1 5.933e+09
+Number2 3.68978e+09
+Figs 25
+[       OK ] TestSigFigs.RandomNumbers (0 ms)
+[----------] 3 tests from TestSigFigs (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 6 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"digit_counter_test" end time: May 25 14:10 MDT
+"digit_counter_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 25 14:10 MDT
