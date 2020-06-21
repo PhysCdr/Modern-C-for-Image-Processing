@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -fPIC -O3  -rdynamic CMakeFiles/digit_counter_test.dir/test_warp.cpp.o CMakeFiles/digit_counter_test.dir/test_sig_figs.cpp.o  -o ../../bin/digit_counter_test  ../../lib/libdigit_counting.a ../lib/libgtest.a ../lib/libgtest_main.a ../lib/libgtest.a -lpthread 

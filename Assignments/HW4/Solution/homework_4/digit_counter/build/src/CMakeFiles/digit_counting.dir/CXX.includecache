@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/digit_counting.h
+
+/home/dmitriy/Documents/Learning/Uni-Bonn/ModernC++/Assignments/HW4/Solution/homework_4/digit_counter/src/digit_counting.cpp
+digit_counting.h
+-
+iomanip
+-
+sstream
+-
+string
+-
+cmath
+-
+

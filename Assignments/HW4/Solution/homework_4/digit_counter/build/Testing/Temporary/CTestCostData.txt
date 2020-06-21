@@ -1,0 +1,2 @@
+digit_counter_test 1 0.00477723
+---
